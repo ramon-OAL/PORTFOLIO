@@ -1,0 +1,86 @@
+nav ul li{
+	float: left;      /*sirve para que el menu se vea en horizontal*/
+   list-style: none;  /*   sirve para quitar los puntos de la lista*/
+   margin: 10px;		/* sirve para separar los elementos de la lista entre ellos*/
+   background: #b4e7ed;
+   padding:10px 15px;
+   border-bottom:5px solid red;
+}
+
+nav ul li:hover{
+	background: #c5edb4;
+}
+
+
+nav ul li a{
+
+	text-decoration: none; /*sirve para quitar el subrayado de un enlace, en este caso el subrayado del menú*/
+	color:#b31e5a;
+}
+
+.limpiar{
+	clear: both;	/* sirve para separar y no se junte elementos, en este caso estamos separando el menú del titulo*/
+}
+nav .fondo1{
+	background-color: #b31e5a;
+}
+button a{
+	text-decoration: none;
+	color:white
+}	
+
+button{
+	background-color: rgb(26, 146, 72);
+	border: 1px solid rgb(26, 146, 72);
+   border-radius: 5px ;
+   padding:10px 15px;
+}
+button:hover{
+	background-color: rgb(83, 255, 149);
+	border: 1px solid rgb(83,255, 149);
+
+}
+button.boton1 {
+background-color:rgb(255, 255, 255);
+border: 1px solid blue
+color:black;
+text-decoration:none;
+border-radius:10px 
+}
+button.boton1:hover {
+	background-color:rgb(0, 7, 0);
+	border-radius: 10px;
+
+	}
+
+	button.boton1 a{
+		color:rgb(20, 19, 19)
+	}
+
+	button.boton1:hover a{
+		color:white;
+	}
+	.ins{
+		margin: 20px 20px;
+	}
+	.fac{
+		margin: 20px 20px;
+	}
+
+	.tik{
+		margin:20px 20px;
+	}
+	img:not(section.contenedorBlog img){
+		-webkit-box-shadow: 14px 8px 5px 4px rgba(10,110,97,0.48);
+	-moz-box-shadow: 14px 8px 5px 4px rgba(10,110,97,0.48);
+	box-shadow: 14px 8px 5px 4px rgba(10,110,97,0.48);
+		margin:20px 20px;
+		width:80%
+	}
+section.videos video{
+		-webkit-box-shadow: 12px -4px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 12px -4px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 12px -4px 5px 0px rgba(0,0,0,0.75);
+	margin-left:20px;
+
+}
